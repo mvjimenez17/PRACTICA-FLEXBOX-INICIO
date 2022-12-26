@@ -1,0 +1,75 @@
+*{
+
+}
+
+.gallery{
+    height: 600px;
+    width: 95%;
+    margin: 40px auto;
+    display: flex;
+}
+
+.gallery__img{
+    width: 80px;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    transition: flex .5s;
+    -webkit-transition: flex .5s;
+    -moz-transition: flex .5s;
+    -ms-transition: flex .5s;
+    -o-transition: flex .5s;
+    flex: 1;
+    display: grid;
+
+    --message: 'ingresa aqui.';
+    --clip: circle (0 at center);
+    --transition: clip-path .2s;
+}
+
+.gallery__img::before{
+    content: var(--message);
+    display: grid;
+    place-items: center;
+    background-color: #1d1d1e48;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    color: #fff;
+    clip-path: var(--clip);
+    transition: var(--transition);
+    -webkit-transition: var(--transition);
+    -moz-transition: var(--transition);
+    -ms-transition: var(--transition);
+    -o-transition: var(--transition);
+}
+
+.gallery__img:hover{
+    flex: 6;
+    --clip: circle (180% at center)
+    --transition: clip-path .4s .5s;
+    -webkit-transition: ;
+    -moz-transition: ;
+    -ms-transition: ;
+    -o-transition: ;
+}
+
+.gallery__img:nth-child(1){
+
+    background-image: url(img/img1.jpg);
+
+}
+
+
+.gallery__img:nth-child(2){
+
+    background-image: url(img/img2.jpg);
+
+}
+
+
+.gallery__img:nth-child(3){
+
+    background-image: url(img/img3.jpg);
+
+
+}
+
