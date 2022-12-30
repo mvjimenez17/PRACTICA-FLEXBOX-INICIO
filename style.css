@@ -5,29 +5,31 @@
 }
 
 .container{
-    width: 90%;
+    width: 400px;
     /* max-width: 600px; */
     height: 600px;
     outline: 2px solid #000;
     margin: 30px auto;
     display: flex;
-    flex-direction: row;
-    /* align-items: baseline; */
+    /* flex-direction: row; */
+    /* align-items: center; */
+    
 
-    /* justify-content: space-around;*/
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
+    /* justify-content: center; */
+    /* flex-wrap: wrap; */
+    /* align-content: center; */
+   
     /* flex-flow es un short hand  de 
     flex-direction flex-wrap*/
     /* flex-flow: column wrap; */
+    
    
 }
 
 .item{
     --height: 80px;
     background: tomato;
-    width:300px;
+    width:80px;
     height: var(--height);
     line-height: var(--height);
     color: #fff;
@@ -35,11 +37,26 @@
     font-weight: bold;
     font-size: 1.5rem;
     font-family: sans-serif;
+   
+   /* order: ; */
+    /* flex-grow: 1; */
+    /* flex-shrink: 10; */
+    /* flex-basis: ; */
+
+    /* la propiedad flex es el shorthand */
+    /* flex: grow-shrink-basis; */
+    /* flex: 1 1 0; */
+   
+   
+    
 
 }
 
 .item1{
+    /* align-self: flex-end; */
+    /* flex-shrink: 3; */
   
+   
 }
 
 .item2{
@@ -50,13 +67,25 @@
 
 .item3{
     background: greenyellow;
+    /* align-self: stretch; */
+    /* order: -1; */
+    /* flex-grow: 1; */
+    align-self: ;
+
+    /* margin-top: auto; */
+    margin-left: auto;
+    /* margin-bottom: auto; */
+    /* margin-right: auto; */
+
+   
 }
 
 
 .item4{
     background: purple;
+    /* align-self: flex-end; */
 }
 
-.item5{
-    background: aqua;
-}
+
+
+

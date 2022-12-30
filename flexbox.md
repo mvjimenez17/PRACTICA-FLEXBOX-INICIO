@@ -49,7 +49,7 @@ __center__ nos permite centrar los elementos de manera vertical. Junto a __justi
 __stretch__ para utilizar este valor debes tener un height: auto; Lo que hace este valor es que los elementos ocupen el 100% del contenedor en lo que altura se refiere.
 __baseline__ Se utiliza para orientar la base de la fuente del elemento en una misma altura no importando que su tamaño fuente sea distinto entre cada elemento.
 
-__align-contenet: flex-start | flex-end | center | stretch | space-around | space-between;__
+__align-content: flex-start | flex-end | center | stretch | space-around | space-between;__
 
  Está propiedad solo se utiliza cuando tenemos varias filas de elementos, pero si es una sola línea de elementos se usa align-items.
 
