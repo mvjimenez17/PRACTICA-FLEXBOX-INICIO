@@ -95,6 +95,14 @@ __flex-end row__ hasta abajo | column hasta derecha
 __stretch row__ colocar height auto | __column__ colocar weight auto
 __baseline__ Se utiliza para orientar la base de la fuente del elemento en una misma altura no importando que su tamaño fuente sea distinto entre cada elemento.
 
+# GAP
+
+La propiedad gap en CSS es una abreviatura de row-gapy column-gap, que especifica el tamaño de los canalones, que es el espacio entre filas y columnas dentro de los diseños de cuadrícula , flexible y de varias columnas .
+
+__GAP es un espaciador solo agrega espacio entre los elementos ya sea en filas o en columnas__
+
+
+
 
 
 
